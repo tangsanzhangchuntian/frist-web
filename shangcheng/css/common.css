@@ -1,0 +1,169 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.hearer{
+    margin: 25px auto;
+    width: 1200px;
+
+}
+.hearer .menu ul{
+    display: none;
+    position: absolute;
+    opacity: 0.5;
+    background: white;
+    width: 80px;
+
+
+}
+.hearer .menu ul li{
+    list-style: none;
+    margin-top: 20px;
+    text-align: center;
+
+
+}
+.hearer .menu{
+    float: left;
+    position: relative;
+    left: 16px;
+    top: 12px;
+}
+.hearer .menu .menu_title{
+    border-bottom: 1px solid black;
+    padding-bottom: 20px;
+    width: 80px;
+    text-align: center;
+
+}
+.hearer .logo {
+    position: relative;
+    float: left;
+}
+/*鼠标悬停效果
+.hearer .menu:hover ul{
+    display: block;
+}*/
+
+a{
+    text-decoration: none;
+}
+.hearer .auto{
+    float: right;
+}
+
+.hearer .auto ul li{
+    float: left;
+    list-style: none;
+    margin-top: 12px;
+    margin-right: 70px;
+}
+
+.content{
+    width: 1200px;
+    margin: 25px auto;
+}
+
+.content .banner-img img{
+    margin-top: 20px;
+}
+
+.content .img-content ul{
+    width: 1280px;
+}
+
+.content .img-content ul li{
+    width: 360px;
+    float: left;
+    list-style-type: none;
+    margin: 0 60px 60px 0;
+    /*边框设置*/
+    height: 700px;
+    box-shadow: 0 0 5px 3px #ccc;
+    margin-top: 30px;
+    -webkit-box-shadow: 0 0 5px 3px #ccc;/*谷歌浏览器*/
+    -moz-box-shadow:0 0 5px 3px #ccc;/*火狐浏览器*/
+    background: white;
+}
+
+/*设置标题*/
+.img-content .info h3{
+    font-size: 25px;
+    color: red;
+    margin-top: 20px;
+}
+
+/*设置段落*/
+.img-content .info p{
+    line-height: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/*设置背景色*/
+body{
+    background: #f5f5f5;
+}
+
+.img-content .info{
+    padding-right: 35px;
+    padding-left: 35px;
+}
+
+.img-content .info .img-btn{
+    width: 300px;
+}
+.content .img-content .info .img-btn .cart .btn{
+    width: 60px;
+    height: 30px;
+    background: red;
+    text-align: center;
+    border-radius: 5px;
+    float: right;
+}
+
+.content .info .img-btn .cart img{
+    width: 25px;
+    height: 20px;
+    margin-top: 5px;
+}
+
+.content .img-content .info .img-btn .price{
+    float: left;
+    font-size: 25px;
+    color: red;
+}
+/*设置翻页*/
+.content .pagenav{
+    width: 1200px;
+    height: 60px;
+    line-height: 60px;
+
+    overflow: hidden;
+}
+.content .pagenav ul li{
+    float: left;
+    list-style-type: none;
+    margin-right: 20px;
+}
+.content .pagenav ul{
+    margin: auto;
+    overflow: hidden;
+    width:500px
+}
+.content .pagenav .first-pagenav{
+    border-radius: 50%;
+    background: #c5c5c5;
+    padding: 6px 9px;
+}
+.content .footer{
+    width: 1200px;
+    line-height: 80px;
+    border-top: 1px solid black;
+    text-align: center;
+    margin-top: 20px;
+}
+.content .footer p span{
+    color: red;
+}
+
